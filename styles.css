@@ -1,7 +1,16 @@
+#box1 {
+       color: indigo;
+       background-color: lightgoldenrodyellow;
+}
+
 h1 {
     background-color: azure;
     color: blueviolet;
     text-align: center;
+}
+
+h5 {
+    color: darkblue
 }
 
 p {
@@ -36,6 +45,7 @@ section {
     margin: 5px;
     width: 100%;
     height: 50%;
+    padding: 5px;
 }
 
 h2 {
