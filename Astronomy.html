@@ -15,12 +15,80 @@
                 color: whitesmoke;
                 text-align: center;
                 padding: 5px;
+                font-weight: bolder;
             }
-            
+            body {
+                background-color: rgb(3, 3, 85);
+            }
+            th, td {
+                padding: 5px;
+                text-align: center;
+                color: whitesmoke;
+                border: 2px solid black;
+                background-color: darkblue
+            }
+            .row > div {
+                padding: 5px;
+                text-align: center;
+                color: whitesmoke;
+                border: 2px solid black;
+                background-color: darkblue;
+                font-weight: bold;
+            }
         </style>
     </head>
     <body>
         <h1>Welcome to your universe!</h1>
-
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    Name
+                </div>
+                <div class="col-3">
+                    Class
+                </div>
+                <div class="col-6">
+                    Information
+                </div>
+            </div>
+        </div>
+        <table class="container">
+            <tr class="row">
+                <td class="col-3">Aquarius</td>
+                <td class="col-3">Zodiac Constellation</td>
+                <td class="col-6">This constellation takes the form of a mermaid or a maiden with a water pitcher.</td>
+            </tr>
+            <tr class="row">
+                <td class="col-3">Pisces</td>
+                <td class="col-3">Zodiac Constellation</td>
+                <td class="col-6">The second zodiac symbol draws the image of two fish tied together with a string.</td>
+            </tr>
+            <tr class="row">
+                <td class="col-3">Aries</td>
+                <td class="col-3">Zodiac Constellation</td>
+                <td class="col-6">One of the twelve zodiac constellations. It takes the form of a ram.</td>
+            </tr>
+            <tr class="row">
+                <td class="col-3">Taurus</td>
+                <td class="col-3">Zodiac Constellation</td>
+                <td class="col-6">This is the bull and is very prominent in the northern hemisphere for most of the year.</td>
+            </tr>
+            <tr class="row">
+                <td class="col-3">Gemini</td>
+                <td class="col-3">Zodiac Constellation</td>
+                <td class="col-6">This constellation takes the form of the twins, Pollux and Castor. The heads of the twins are represented by the stars, appropriately named, Pollux and Castor.</td>
+            </tr>
+            <tr class="row">
+                <td class="col-3">Cancer</td>
+                <td class="col-3">Zodiac Constellation</td>
+                <td class="col-6"></td>
+            </tr>
+        </table>
     </body>
+    <footer id="footer">
+        <h1>
+
+        
+        </h1>
+    </footer>
 </html>
